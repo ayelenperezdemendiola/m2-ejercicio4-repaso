@@ -30,7 +30,7 @@ fetch('https://raw.githubusercontent.com/Adalab/Easley-ejercicios-de-fin-de-sema
         let newsListeners = document.querySelectorAll ('.news__item');
         console.log (newsListeners);
         for (const items of newsListeners){
-          items.addEventListener ('click',showMe ());
+          items.addEventListener ('click',showMe);
         }
 
 } 
