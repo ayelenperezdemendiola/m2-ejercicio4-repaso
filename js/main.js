@@ -37,8 +37,7 @@ fetch('https://raw.githubusercontent.com/Adalab/Easley-ejercicios-de-fin-de-sema
 });
 
 
-function showMe(){
-  if (newsListeners.classList.contains ('news__item--no-image-visible')){
-        newsListeners.classList.toggle ('news__item--no-image-visible');    
+function showMe(event){
+        event.currentTarget.classList.toggle ('news__item--no-image-visible');    
   }
-}
+
